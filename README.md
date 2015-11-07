@@ -10,13 +10,20 @@ Original Source
 * https://hub.docker.com/r/library/tomcat/
 
 Image build
-* docker build --tag tadpoledb:1.6.6 .
+-
+* docker build -t tadpoledb/tadpoledb:1.6.6 .
 
 Image run
-* docker run -it --rm -p 32769:8080 tadpoledb:1.6.6
+-
+* docker run -it --rm -p 32769:8080 hyunjongcho/tadpoledbhub:latest
+
+Tadpole DB Hub start
+-
+* http://{your ip}:32769/tadpole/tadpole
 
 Download
-* https://sourceforge.net/projects/tadpoledbhub/files/1.6.x/1.6.5/
+-
+* https://sourceforge.net/projects/tadpoledbhub/files/1.6.x/1.6.6/
 
 License
 -
