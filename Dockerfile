@@ -1,3 +1,7 @@
+#
+# original source : https://hub.docker.com/r/library/tomcat/
+# 
+#
 FROM java:8-jre
 
 ENV CATALINA_HOME /usr/local/tomcat
@@ -32,6 +36,7 @@ RUN set -x \
 	&& rm bin/*.bat \
 	&& rm tomcat.tar.gz*
 
+# tadpole resource
 RUN wget 'http://192.168.0.29:8080/examples/tadpole.war'
 RUN mv $CATALINA_HOME/tadpole.war $CATALINA_HOME/webapps/
 
