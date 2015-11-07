@@ -2,7 +2,7 @@ Docker-Tadpole DB Hub
 ==
 [![Join the chat at https://gitter.im/TadpoleDBHub](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/TadpoleDBHub?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Tadpole DB Hub is Unified infrastructure tool, various environment based interface for managing <b>Apache Hive, Apache Tajo, Amazon RDS, MySQL, MariaDB, Oracle, SQLite, MSSQL, PostgreSQL, CUBRID and MongoDB</b> databases.
+Tadpole DB Hub(https://github.com/hangum/TadpoleForDBTools) is Unified infrastructure tool, various environment based interface for managing <b>Apache Hive, Apache Tajo, Amazon RDS, MySQL, MariaDB, Oracle, SQLite, MSSQL, PostgreSQL, CUBRID and MongoDB</b> databases.
 It enables you to handle typical DB over the World Wide Web
 ![screenshot](https://e99af464-a-62cb3a1a-s-sites.googlegroups.com/site/tadpolefordb/home/TadpoleDBHub_overview.png?height=309&width=400)
 
@@ -20,11 +20,11 @@ Image build
 
 Image run
 -
-* docker run -it --rm -p 32769:8080 hyunjongcho/tadpoledbhub:latest
+* docker run -it --rm -p 32768:8080 hyunjongcho/tadpoledbhub:latest
 
 Tadpole DB Hub start
 -
-* http://{your ip}:32769/tadpole/tadpole
+* http://{your ip}:32768/tadpole/tadpole
 
 Download
 -
@@ -45,5 +45,6 @@ Contributor
 * hangum (hangum@gmail.com)
 
 Donation
-- Paypal(paypal.com) : hangum@gmail.com
-- Donor(https://github.com/hangum/TadpoleForDBTools/wiki/Donor-List)
+-
+* Paypal(paypal.com) : hangum@gmail.com
+* Donor(https://github.com/hangum/TadpoleForDBTools/wiki/Donor-List)
