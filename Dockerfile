@@ -37,7 +37,7 @@ RUN set -x \
 	&& rm tomcat.tar.gz*
 
 # tadpole resource
-RUN wget 'http://192.168.0.29:8080/examples/tadpole.war'
+RUN wget 'https://sourceforge.net/projects/tadpoledbhub/files/1.6.x/1.6.6/tadpole.war'
 RUN mv $CATALINA_HOME/tadpole.war $CATALINA_HOME/webapps/
 
 EXPOSE 8080

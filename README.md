@@ -16,11 +16,15 @@ Docker Hub
 
 Image build
 -
-* docker build -t tadpoledb/tadpoledb:1.6.6 .
+* docker build -t hyunjongcho/tadpoledbhub:latest .
 
 Image run
 -
 * docker run -it --rm -p 32768:8080 hyunjongcho/tadpoledbhub:latest
+
+Docker push
+-
+* docker push hyunjongcho/tadpoledbhub:latest
 
 Tadpole DB Hub start
 -
