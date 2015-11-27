@@ -26,6 +26,11 @@ Docker push
 -
 * docker push hyunjongcho/tadpoledbhub:latest
 
+Docker tag
+- 
+* 도커허브 계정(hyunjongcho/tadpoledbhub) 의 이름으로 tag되어 있어야 합니다. 
+* docker tag 59556f5bbf7b hyunjongcho/tadpoledbhub:1.6.6
+
 Tadpole DB Hub start
 -
 * http://{your ip}:32768/tadpole/tadpole
