@@ -33,11 +33,11 @@ Docker tag
 
 Tadpole DB Hub start
 -
-* http://{your ip}:32768/tadpole/tadpole
+* http://{tomcat ip}:{tomcat port}/tadpole/tadpole
 
 Download
 -
-* https://sourceforge.net/projects/tadpoledbhub/files/1.6.x/1.6.6/
+* https://sourceforge.net/projects/tadpoledbhub/files/1.7.x/1.7.0/
 
 License
 -
