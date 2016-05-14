@@ -37,7 +37,7 @@ Tadpole DB Hub start
 
 Download
 -
-* https://sourceforge.net/projects/tadpoledbhub/files/1.7.x/1.7.0/
+* https://sourceforge.net/projects/tadpoledbhub/files/1.7.x/1.7.2/
 
 License
 -
