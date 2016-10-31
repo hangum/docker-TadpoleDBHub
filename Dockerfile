@@ -1,6 +1,6 @@
 #
 # original source : https://hub.docker.com/r/library/tomcat/
-# 
+#	2016.10.31 - updated 
 #
 FROM java:8-jre
 
@@ -29,7 +29,7 @@ RUN set -ex \
 	done
 
 ENV TOMCAT_MAJOR 8
-ENV TOMCAT_VERSION 8.0.32
+ENV TOMCAT_VERSION 8.5.6
 ENV TOMCAT_TGZ_URL https://www.apache.org/dist/tomcat/tomcat-$TOMCAT_MAJOR/v$TOMCAT_VERSION/bin/apache-tomcat-$TOMCAT_VERSION.tar.gz
 
 RUN set -x \
@@ -41,7 +41,7 @@ RUN set -x \
 	&& rm tomcat.tar.gz*
 
 # tadpole resource
-RUN wget 'https://sourceforge.net/projects/tadpoledbhub/files/1.7.x/1.7.1/tadpole.war'
+RUN wget 'https://sourceforge.net/projects/tadpoledbhub/files/1.7.x/1.7.3/tadpole.war'
 RUN mv $CATALINA_HOME/tadpole.war $CATALINA_HOME/webapps/
 
 EXPOSE 8080
