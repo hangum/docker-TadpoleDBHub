@@ -29,15 +29,17 @@ Docker push
 Docker tag
 - 
 * 도커허브 계정(hyunjongcho/tadpoledbhub) 의 이름으로 tag되어 있어야 합니다. 
-* docker tag 59556f5bbf7b hyunjongcho/tadpoledbhub:1.6.6
+* docker tag 59556f5bbf7b hyunjongcho/tadpoledbhub:1.7.3
 
 Tadpole DB Hub start
 -
-* http://{tomcat ip}:{tomcat port}/tadpole/tadpole
+* http://{tomcat ip}:{tomcat port}/tadpole/tadpole/
+
+* You must put the last /.(마지막 / 를 꼭 넣으셔야 합니다.)
 
 Download
 -
-* https://sourceforge.net/projects/tadpoledbhub/files/1.7.x/1.7.0/
+* https://sourceforge.net/projects/tadpoledbhub/files/1.7.x/1.7.3/
 
 License
 -
