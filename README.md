@@ -33,9 +33,7 @@ Docker tag
 
 Tadpole DB Hub start
 -
-* http://{tomcat ip}:{tomcat port}/tadpole/tadpole/
-
-* You must put the last /.(마지막 / 를 꼭 넣으셔야 합니다.)
+* http://{tomcat ip}:{tomcat port}
 
 Download
 -
