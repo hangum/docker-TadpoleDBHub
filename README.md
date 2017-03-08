@@ -20,7 +20,8 @@ Image build
 
 Image run
 -
-* docker run -it --rm -p 32768:8080 hyunjongcho/tadpoledbhub:latest
+* docker run -it -p 32768:8080 hyunjongcho/tadpoledbhub:latest
+* docker start tadpoledbhub
 
 Docker push
 -
