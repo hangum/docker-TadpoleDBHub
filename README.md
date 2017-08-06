@@ -30,6 +30,7 @@ Docker push
 Docker tag
 - 
 * 도커허브 계정(hyunjongcho/tadpoledbhub) 의 이름으로 tag되어 있어야 합니다. 
+* docker images
 * docker tag 59556f5bbf7b hyunjongcho/tadpoledbhub:1.7.3
 
 Tadpole DB Hub start
@@ -38,7 +39,7 @@ Tadpole DB Hub start
 
 Download
 -
-* https://sourceforge.net/projects/tadpoledbhub/files/1.7.x/1.7.4/
+* https://sourceforge.net/projects/tadpoledbhub/files/1.7.x/1.7.4r13/
 
 License
 -
