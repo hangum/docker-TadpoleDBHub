@@ -1,0 +1,9 @@
+version: '2'
+services:
+  tadpole:
+    restart: always
+    image: hyunjongcho/tadpoledbhub
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./tadpole_db:/usr/local/tomcat/work/Catalina/localhost/ROOT/eclipse/configuration/tadpole/db
