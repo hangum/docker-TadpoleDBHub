@@ -29,7 +29,7 @@ RUN set -ex \
 	done
 
 ENV TOMCAT_MAJOR 8
-ENV TOMCAT_VERSION 8.5.32
+ENV TOMCAT_VERSION 8.5.41
 ENV TOMCAT_TGZ_URL https://www.apache.org/dist/tomcat/tomcat-$TOMCAT_MAJOR/v$TOMCAT_VERSION/bin/apache-tomcat-$TOMCAT_VERSION.tar.gz
 RUN set -x \
 	&& curl -fSL "$TOMCAT_TGZ_URL" -o tomcat.tar.gz \
@@ -41,7 +41,8 @@ RUN set -x \
 	&& rm tomcat.tar.gz*
 
 # tadpole resource
-RUN wget 'https://sourceforge.net/projects/tadpoledbhub/files/1.8.x/1.8.4r6/ROOT.war/download'
+# RUN curl -o ROOT.war http://192.168.0.101:8080/api/ROOT.war
+RUN wget 'https://sourceforge.net/projects/tadpoledbhub/files/2.0.x/2.0.0/ROOT.war/download'
 # RUN ls -l
 RUN mv $CATALINA_HOME/download $CATALINA_HOME/webapps/ROOT.war
 
