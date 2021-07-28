@@ -7,3 +7,4 @@ services:
       - "8080:8080"
     volumes:
       - ./tadpole_db:/usr/local/tomcat/work/Catalina/localhost/ROOT/eclipse/configuration/tadpole/db
+      - .TadpoleHub.lic:/root/tadpole/TadpoleHub.lic
